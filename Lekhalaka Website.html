@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekhalaka Pty Ltd</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light gray to complement the profile's clean design */
+            color: #002b5c; /* Dark navy blue for text */
+        }
+        header {
+            background: linear-gradient(90deg, #002b5c, #00509e); /* Dark navy blue to royal blue gradient */
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 15px;
+        }
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        .about, .services, .contact {
+            padding: 30px;
+            text-align: center;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        .about h2, .services h2, .contact h2 {
+            color: #00509e; /* Royal blue for section headings */
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services ul li {
+            margin: 10px 0;
+        }
+        form {
+            margin: 20px auto;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, textarea, button {
+            padding: 12px;
+            border: 1px solid #00509e;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            background-color: #00509e;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #002b5c;
+        }
+        .contact p a {
+            color: #00509e;
+            text-decoration: none;
+        }
+        .contact p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Placeholder for the company logo -->
+        <img src="Lekhalaka Logo.png" alt="Lekhalaka Logo">
+        <h1>Lekhalaka Pty Ltd</h1>
+        <p>Your Partner in Tailored Business and ICT Solutions</p>
+    </header>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            Established in 2015, Lekhalaka Pty Ltd specializes in tailored business services, turnkey IT solutions, 
+            and end-to-end ICT software and infrastructure services for private and public sectors in South Africa.
+        </p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Infrastructure Services: Supply, installation, and maintenance of critical IT equipment and systems.</li>
+            <li>WAN & LAN Design: Network solutions based on leading brands such as Cisco and Huawei.</li>
+            <li>Cabling: Professional installation of network cabling infrastructure.</li>
+            <li>Maintenance Services: On-site and off-site remedial maintenance for hardware and peripherals.</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Head Office: 27-30 Apiesdoring Rd, Heuweloord, Unit 4 Junction 3, Centurion 0157</p>
+        <p>Regional Office: Stand 23 Ngulumbi, Thohoyandou 0950</p>
+        <p>Call us: <strong>069 267 4545</strong></p>
+        <p>WhatsApp us: <a href="https://wa.me/2782061656" target="_blank">078 206 1656</a></p>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/lekhalaka_pty_ltd?igsh=MWpmaDZydHh5N3p2bA==" target="_blank">Lekhalaka Pty Ltd</a></p>
+        <p>Email us: <a href="mailto:malapa@lekhalaka.co.za">malapa@lekhalaka.co.za</a>, <a href="mailto:womphulusa@lekhalaka.co.za">womphulusa@lekhalaka.co.za</a></p>
+
+        <form action="mailto:bongani@lekhalaka.co.za" method="post" enctype="text/plain">
+            <h3>Request a Quote</h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="details" placeholder="Details about your request" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
